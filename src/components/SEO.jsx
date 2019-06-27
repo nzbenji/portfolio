@@ -81,11 +81,9 @@ const Head = props => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>{title}</title>
-      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+     
       <meta name="gatsby-starter" content="Gatsby Starter Portfolio Cara" />
-      <link rel="shortcut icon" href="favicon.ico" />
+      
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
@@ -129,3 +127,9 @@ const querySEO = graphql`
     }
   }
 `
+
+
+// <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
+// <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+// <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+// <link rel="shortcut icon" href="favicon.ico" />
